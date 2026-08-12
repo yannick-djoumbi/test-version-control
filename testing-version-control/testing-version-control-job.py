@@ -16,5 +16,6 @@ job.init(args['JOB_NAME'], args)
 
 print("Hello from AWS Glue!")
 print("Hello from AWS Glue!, his is version 2")
+print("Hello from AWS Glue!, his is version 3")
 
 job.commit()
