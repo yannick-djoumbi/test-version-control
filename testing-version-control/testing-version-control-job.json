@@ -1,7 +1,7 @@
 {
   "name" : "testing-version-control-job",
   "jobMode" : "SCRIPT",
-  "description" : "",
+  "description" : "testing version control for glue jobs",
   "role" : "arn:aws:iam::009160067004:role/delegatedadmin/adodeveloper/service-role/view-dev-glue-role",
   "executionProperty" : {
     "maxConcurrentRuns" : 1
@@ -23,7 +23,7 @@
     "--job-language" : "python",
     "--TempDir" : "s3://aws-glue-assets-009160067004-us-east-1/temporary/"
   },
-  "maxRetries" : 0,
+  "maxRetries" : 67,
   "allocatedCapacity" : 10,
   "timeout" : 480,
   "maxCapacity" : 10.0,
