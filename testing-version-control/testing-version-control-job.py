@@ -18,5 +18,6 @@ print("Hello from AWS Glue!")
 print("Hello from AWS Glue!, his is version 2")
 print("Hello from AWS Glue!, his is version 3")
 print("Hello from AWS Glue!, his is version 4")
+print("Hello from VS code")
 
 job.commit()
