@@ -19,5 +19,6 @@ print("Hello from AWS Glue!, his is version 2")
 print("Hello from AWS Glue!, his is version 3")
 print("Hello from AWS Glue!, his is version 4")
 print("Hello from VS code")
+print("today is 08/20/2028 hello from aws")
 
 job.commit()
